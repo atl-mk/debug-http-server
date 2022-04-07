@@ -1,0 +1,27 @@
+{
+  "description": "Prints the HTTP request to the console and responds with any data it receives",
+  "name": "debug-http-server",
+  "version": "0.0.1",
+  "type": "module",
+  "keywords": [
+    "debug",
+    "http",
+    "server",
+    "node"
+  ],
+  "license": "SEE LICENSE IN index.js",
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "debug-http-server": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "publish": "np"
+  },
+  "devDependencies": {
+    "np": "^7.6.1"
+  },
+  "repository": "github:atl-mk/debug-http-server"
+}
