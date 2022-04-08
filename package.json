@@ -1,7 +1,7 @@
 {
   "description": "Prints the HTTP request to the console and responds with any data it receives",
   "name": "debug-http-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "keywords": [
     "debug",
